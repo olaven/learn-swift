@@ -18,6 +18,8 @@ struct Card
         static => understood by the Type Card, not Card objects
         Exists for the type, independent of objects
     */
+    
+    // MARK: Getting unique identifier
     static var identifierFactory = 0
     static func getUniqueIdentifier() -> Int {
         identifierFactory += 1

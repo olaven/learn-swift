@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Quiz
+//  Playing
 //
-//  Created by Olav on 20/04/2018.
+//  Created by Olav on 17/04/2018.
 //  Copyright © 2018 olaven. All rights reserved.
 //
 
