@@ -11,10 +11,11 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        let labelRect = CGRect(x: 100, y: 100, width: 200, height: 100)
-        let label = UILabel(frame : labelRect)
-        label.text = "I am added"
-        view.addSubview(label)
+        for i in 1...10 {
+            let label = UILabel(frame: CGRect(x: 200, y: i * 100, width: 100, height: 100))
+            label.text = "item : " + String(i)
+            view.addSubview(label)
+        }
     }
 
     override func didReceiveMemoryWarning() {
